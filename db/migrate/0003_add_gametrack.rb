@@ -1,4 +1,4 @@
-class AddPlayer < ActiveRecord::Migration
+class AddGametrack < ActiveRecord::Migration
   
   def up
     create_table :gametrack do |t|
