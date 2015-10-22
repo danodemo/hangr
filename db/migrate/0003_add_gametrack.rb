@@ -1,7 +1,7 @@
 class AddGametrack < ActiveRecord::Migration
   
   def up
-    create_table :gametrack do |t|
+    create_table :gametracks do |t|
       t.string :player_name
       t.boolean :gameover?
       t.integer :guesses_made
